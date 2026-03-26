@@ -1,0 +1,737 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Alita — Next-Gen AI Marketing & Lead Platform | Find Your Next Customer</title>
+    <meta name="description" content="Find Your Next Customer from Real-Time Social Behavioral Data. 98% targeting accuracy, 40% less ad spend. Trusted by 12,000+ clients worldwide.">
+    <link rel="icon" type="image/svg+xml" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'><rect width='32' height='32' rx='6' fill='%231E1B5E'/><text x='16' y='23' font-family='Arial' font-weight='bold' font-size='20' fill='white' text-anchor='middle'>A</text></svg>">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800;900&display=swap" rel="stylesheet">
+    <script src="https://unpkg.com/lucide@latest"></script>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <!-- ========== NAVIGATION ========== -->
+    <nav id="main-nav">
+        <div class="container">
+            <a href="#" class="logo">
+                <img src="assets/logo.png" alt="Alita" class="logo-img">
+            </a>
+            <div class="nav-links">
+                <a href="#solutions">Solutions</a>
+                <a href="#data">Our Data</a>
+                <a href="#how-it-works">How It Works</a>
+                <a href="#pricing">Pricing</a>
+                <a href="#reviews">Reviews</a>
+            </div>
+            <div class="nav-actions">
+                <a href="https://app.thealita.com" class="btn btn-ghost btn-sm">Sign In</a>
+                <a href="https://app.thealita.com/signup" class="btn btn-primary btn-sm">Start Free Trial</a>
+            </div>
+            <button class="mobile-toggle" id="mobileToggle" aria-label="Menu">
+                <i data-lucide="menu"></i>
+            </button>
+        </div>
+    </nav>
+
+    <!-- ========== HERO ========== -->
+    <section class="hero" id="hero">
+        <div class="container">
+            <div class="hero-content">
+                <div class="hero-text">
+                    <div class="badge">
+                        <i data-lucide="shield-check" size="14"></i>
+                        TOP #5 AI MARKETING SYSTEM · SOCIAL DATA PLATFORM
+                    </div>
+                    <h1>Find Your Next Customer from <span class="highlight">Real-Time Social Behavioral Data</span></h1>
+                    <p class="hero-sub">Alita reads social behavior so you reach the right people — not just more people. 98% targeting accuracy. 40% lower ad spend. 12,000+ clients and counting.</p>
+                    <div class="hero-trust-row">
+                        <span class="hero-trust-item">No credit card required</span>
+                        <span class="hero-trust-dot">·</span>
+                        <span class="hero-trust-item">Set up in 5 minutes</span>
+                        <span class="hero-trust-dot">·</span>
+                        <span class="hero-trust-item">Cancel anytime</span>
+                    </div>
+                </div>
+                <div class="hero-visual">
+                    <div class="hero-mockup">
+                        <!-- Social Audience Dashboard Mockup -->
+                        <div class="sa-mockup sa-mockup-v2">
+                            <!-- Browser Chrome -->
+                            <div class="sa-topbar">
+                                <div class="sa-dots"><span></span><span></span><span></span></div>
+                                <span class="sa-url">app.thealita.com/social-audience</span>
+                            </div>
+                            <!-- Filter Toolbar -->
+                            <div class="sa-toolbar">
+                                <div class="sa-filter-group">
+                                    <span class="sa-select">All Types <i data-lucide="chevron-down" size="12"></i></span>
+                                    <span class="sa-select">All Categories <i data-lucide="chevron-down" size="12"></i></span>
+                                    <span class="sa-select">All Packages <i data-lucide="chevron-down" size="12"></i></span>
+                                </div>
+                                <div class="sa-search-box"><i data-lucide="search" size="12"></i> Search audiences...</div>
+                                <button class="sa-btn-filter">Filter</button>
+                                <button class="sa-btn-import"><i data-lucide="link" size="12"></i> Import URL</button>
+                            </div>
+                            <!-- Data Table -->
+                            <div class="sa-data-table">
+                                <div class="sa-dt-head">
+                                    <span class="sa-col-no">NO.</span>
+                                    <span class="sa-col-name">PAGE/GROUP/PROFILE</span>
+                                    <span class="sa-col-type">TYPE</span>
+                                    <span class="sa-col-size">AUDIENCE SIZE</span>
+                                    <span class="sa-col-email">EMAILS</span>
+                                    <span class="sa-col-pkg">PACKAGE</span>
+                                    <span class="sa-col-act">ACTION</span>
+                                </div>
+                                <div class="sa-dt-row">
+                                    <span class="sa-col-no">1</span>
+                                    <span class="sa-col-name"><span class="sa-avatar sa-av-pink">E</span><div><strong>Estee Lauder</strong><small>ID: 114853097618</small></div></span>
+                                    <span class="sa-col-type"><span class="sa-type-badge sa-type-fp">FANPAGE</span></span>
+                                    <span class="sa-col-size">204,710</span>
+                                    <span class="sa-col-email">4,960</span>
+                                    <span class="sa-col-pkg sa-pkg-premium">Premium</span>
+                                    <span class="sa-col-act"><span class="sa-view-btn">View</span></span>
+                                </div>
+                                <div class="sa-dt-row">
+                                    <span class="sa-col-no">2</span>
+                                    <span class="sa-col-name"><span class="sa-avatar sa-av-green">A</span><div><strong>Agile Vietnam</strong><small>ID: 141081765988031</small></div></span>
+                                    <span class="sa-col-type"><span class="sa-type-badge sa-type-gr">GROUP</span></span>
+                                    <span class="sa-col-size">3,887</span>
+                                    <span class="sa-col-email">1,415</span>
+                                    <span class="sa-col-pkg sa-pkg-micro">Micro</span>
+                                    <span class="sa-col-act"><span class="sa-view-btn">View</span></span>
+                                </div>
+                                <div class="sa-dt-row">
+                                    <span class="sa-col-no">3</span>
+                                    <span class="sa-col-name"><span class="sa-avatar sa-av-gray">?</span><div><strong>BookItcom</strong><small>ID: 118569889513</small></div></span>
+                                    <span class="sa-col-type"><span class="sa-type-badge sa-type-fp">FANPAGE</span></span>
+                                    <span class="sa-col-size">261,203</span>
+                                    <span class="sa-col-email">5,394</span>
+                                    <span class="sa-col-pkg sa-pkg-premium">Premium</span>
+                                    <span class="sa-col-act"><span class="sa-view-btn">View</span></span>
+                                </div>
+                                <div class="sa-dt-row">
+                                    <span class="sa-col-no">4</span>
+                                    <span class="sa-col-name"><span class="sa-avatar sa-av-indigo">N</span><div><strong>Nhà Nguyên Căn TP.HCM</strong><small>ID: 1003269067182777</small></div></span>
+                                    <span class="sa-col-type"><span class="sa-type-badge sa-type-gr">GROUP</span></span>
+                                    <span class="sa-col-size">53,315</span>
+                                    <span class="sa-col-email">5,626</span>
+                                    <span class="sa-col-pkg sa-pkg-diamond">Diamond</span>
+                                    <span class="sa-col-act"><span class="sa-view-btn">View</span></span>
+                                </div>
+                                <div class="sa-dt-row">
+                                    <span class="sa-col-no">5</span>
+                                    <span class="sa-col-name"><span class="sa-avatar sa-av-teal">H</span><div><strong>HỘI THANH LÝ SỮA</strong><small>ID: 699494630828626</small></div></span>
+                                    <span class="sa-col-type"><span class="sa-type-badge sa-type-gr">GROUP</span></span>
+                                    <span class="sa-col-size">40,279</span>
+                                    <span class="sa-col-email">2,459</span>
+                                    <span class="sa-col-pkg sa-pkg-gold">Gold</span>
+                                    <span class="sa-col-act"><span class="sa-view-btn">View</span></span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+
+    <!-- ========== CLIENT LOGOS ========== -->
+    <section class="logo-strip">
+        <div class="container">
+            <h3 class="partner-heading">Trusted by Leading Businesses & Partners</h3>
+            <div class="partner-grid">
+                <div class="partner-badge"><span class="pb-icon" style="color:#FF7A59"><i data-lucide="cloud" size="16"></i></span> HubSpot</div>
+                <div class="partner-badge"><span class="pb-icon" style="color:#FFE01B"><i data-lucide="mail" size="16"></i></span> Mailchimp</div>
+                <div class="partner-badge"><span class="pb-icon" style="color:#2ED47A"><i data-lucide="bar-chart-2" size="16"></i></span> Klaviyo</div>
+                <div class="partner-badge"><span class="pb-icon" style="color:#635BFF"><i data-lucide="credit-card" size="16"></i></span> Stripe</div>
+                <div class="partner-badge"><span class="pb-icon" style="color:#4285F4"><i data-lucide="rocket" size="16"></i></span> Google for Startups</div>
+                <div class="partner-badge"><span class="pb-icon" style="color:#76B900"><i data-lucide="cpu" size="16"></i></span> NVIDIA Inception</div>
+                <div class="partner-badge"><span class="pb-icon" style="color:#00A4EF"><i data-lucide="monitor" size="16"></i></span> Microsoft for Startups</div>
+                <div class="partner-badge"><span class="pb-icon" style="color:#3370FF"><i data-lucide="layout-grid" size="16"></i></span> Lark Suite</div>
+                <div class="partner-badge"><span class="pb-icon" style="color:#E91E63"><i data-lucide="radio" size="16"></i></span> Bandwidth</div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ========== TRUST BAR ========== -->
+    <section class="trust-bar">
+        <div class="container">
+            <div class="stats-grid">
+                <div class="stat-item reveal">
+                    <h3 data-count="12000">12,000+</h3>
+                    <p>Clients Worldwide</p>
+                </div>
+                <div class="stat-item reveal">
+                    <h3>450M+</h3>
+                    <p>Social Profiles</p>
+                </div>
+                <div class="stat-item reveal">
+                    <h3>$4.2M+</h3>
+                    <p>Marketing Saved</p>
+                </div>
+                <div class="stat-item reveal">
+                    <h3>98%</h3>
+                    <p>Targeting Accuracy</p>
+                </div>
+                <div class="stat-item reveal">
+                    <h3>Top 5</h3>
+                    <p>DaaS Platform Globally</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ========== PROBLEM STATEMENT ========== -->
+    <section class="problems" id="features">
+        <div class="container">
+            <div class="section-header">
+                <h2>Why Is Your Marketing<br>Budget Disappearing?</h2>
+                <p>Three problems every marketer knows — and one platform that solves all of them.</p>
+            </div>
+            <div class="problem-grid">
+                <div class="problem-card reveal">
+                    <div class="problem-icon"><i data-lucide="trending-down"></i></div>
+                    <h3>Rising Ad Costs, Shrinking Returns</h3>
+                    <p>Facebook and Google CPAs increase 20–40% year over year. You're paying more to reach the same people — and many of them were never your customers to begin with.</p>
+                </div>
+                <div class="problem-card reveal">
+                    <div class="problem-icon"><i data-lucide="target"></i></div>
+                    <h3>Targeting Based on Guesswork</h3>
+                    <p>Demographic data tells you who someone is — not what they want right now. Without real behavioral signals, your audience is too broad and your budget too thin.</p>
+                </div>
+                <div class="problem-card reveal">
+                    <div class="problem-icon"><i data-lucide="bar-chart-3"></i></div>
+                    <h3>No Way to Prove Marketing ROI</h3>
+                    <p>Plenty of leads, but low conversion. No clean data trail from spend to revenue. Every board meeting becomes a negotiation over numbers you can't fully defend.</p>
+                </div>
+            </div>
+            <div class="bridge-text reveal">
+                Alita solves all three — with real-time social behavioral data that tells you not just who your audience is, but what they're actively interested in today.
+            </div>
+        </div>
+    </section>
+
+    <!-- ========== SOCIAL BIG DATA ========== -->
+    <section class="big-data" id="data">
+        <div class="container">
+            <div class="section-header">
+                <div class="badge" style="background: rgba(6,182,212,0.15); border-color: rgba(6,182,212,0.3); color: #06B6D4;">
+                    <i data-lucide="database" size="14"></i>
+                    EXCLUSIVE · What Apollo and ZoomInfo Don't Have
+                </div>
+                <h2>The Largest Social Behavioral Data Platform in the World</h2>
+                <p>Alita's data infrastructure is what makes 98% targeting accuracy possible. It's not a contact database — it's a live behavioral intelligence layer.</p>
+            </div>
+            <div class="data-stats-grid">
+                <div class="data-stat-card reveal">
+                    <h3>450M+</h3>
+                    <h4>Social Profiles Analyzed</h4>
+                    <p>The behavioral footprint of 450 million real users — updated daily, not quarterly.</p>
+                </div>
+                <div class="data-stat-card reveal">
+                    <h3>180M+</h3>
+                    <h4>B2B Contacts</h4>
+                    <p>Verified B2B contacts enriched with social behavioral context. Know not just who they are, but what they care about right now.</p>
+                </div>
+                <div class="data-stat-card reveal">
+                    <h3>500K+</h3>
+                    <h4>Social Audience Datasets</h4>
+                    <p>Pre-built, ready-to-use audience datasets organized by behavior, interests, and engagement patterns.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ========== AI PERSONA ========== -->
+    <section class="ai-persona" id="ai-persona">
+        <div class="container">
+            <div class="ai-flex">
+                <div class="ai-content reveal">
+                    <div class="badge">
+                        <i data-lucide="sparkles" size="14"></i>
+                        AI-POWERED · EXCLUSIVE TO ALITA
+                    </div>
+                    <h2>The Only Platform with <span class="highlight">AI-Powered User Behavior Analysis</span></h2>
+                    <p>Competitors give you a list of names and job titles. Alita tells you what those people are actually doing on social — which communities they've joined, what content triggers their engagement, and whether they're showing purchase intent right now.</p>
+                    <div class="ai-features">
+                        <div class="ai-feature-item">
+                            <i data-lucide="check-circle-2" size="18"></i>
+                            <span><strong>Persona generated in minutes</strong> — AI builds a complete behavioral profile from any social source.</span>
+                        </div>
+                        <div class="ai-feature-item">
+                            <i data-lucide="check-circle-2" size="18"></i>
+                            <span><strong>98% targeting accuracy</strong> — Precision based on real behavior, not assumed demographics.</span>
+                        </div>
+                        <div class="ai-feature-item">
+                            <i data-lucide="check-circle-2" size="18"></i>
+                            <span><strong>Auto-segment, ready to deploy</strong> — Each persona comes with an exportable audience segment.</span>
+                        </div>
+                    </div>
+                    <a href="https://app.thealita.com/signup" class="btn btn-primary">See AI Persona in Action</a>
+                </div>
+                <div class="ai-mockup-wrapper reveal">
+                    <div class="persona-mockup">
+                        <!-- Profile Header -->
+                        <div class="pm-header">
+                            <div class="pm-avatar">
+                                <div class="pm-avatar-img">BN</div>
+                            </div>
+                            <div class="pm-info">
+                                <h4>Bang Nguyen</h4>
+                                <div class="pm-details">
+                                    <span><i data-lucide="hash" size="12"></i> 1162834870</span>
+                                    <span><i data-lucide="mail" size="12"></i> luongban***</span>
+                                    <span><i data-lucide="phone" size="12"></i> 849082***</span>
+                                </div>
+                                <div class="pm-details">
+                                    <span><i data-lucide="user" size="12"></i> Male</span>
+                                    <span><i data-lucide="map-pin" size="12"></i> Ho Chi Minh City</span>
+                                </div>
+                            </div>
+                            <div class="pm-meta">
+                                <span class="pm-tag"><i data-lucide="briefcase" size="12"></i> Entrepreneur</span>
+                                <span class="pm-tag"><i data-lucide="building" size="12"></i> Founder at THEALITA.Com</span>
+                                <span class="pm-tag"><i data-lucide="map-pin" size="12"></i> Ho Chi Minh City, Vietnam</span>
+                            </div>
+                            <button class="pm-share"><i data-lucide="share-2" size="14"></i> Share</button>
+                        </div>
+                        <!-- Insight Cards Grid -->
+                        <div class="pm-grid">
+                            <div class="pm-card pm-purple">
+                                <div class="pm-card-title"><i data-lucide="user-circle" size="16"></i> Customer Portrait</div>
+                                <p>A successful entrepreneur, dynamic and influential in the technology field, especially in Big Data and Social Data Platform...</p>
+                            </div>
+                            <div class="pm-card pm-green">
+                                <div class="pm-card-title"><i data-lucide="lightbulb" size="16"></i> Customer Insight</div>
+                                <p>Focused on providing Big Data & Social Data Platform solutions for major businesses, integrating data from multiple sources...</p>
+                            </div>
+                            <div class="pm-card pm-orange">
+                                <div class="pm-card-title"><i data-lucide="heart" size="16"></i> Customer Relationship</div>
+                                <p>Currently married with family. Has a tendency towards family life and home activities rather than outside socializing...</p>
+                            </div>
+                            <div class="pm-card pm-red">
+                                <div class="pm-card-title"><i data-lucide="target" size="16"></i> Approach Strategy</div>
+                                <p>Approach via active social media channels. Emphasize the value of Big Data and Social Data Platform solutions...</p>
+                            </div>
+                            <div class="pm-card pm-blue">
+                                <div class="pm-card-title"><i data-lucide="hash" size="16"></i> Numerology</div>
+                                <p>Life Path Number is 7. Analytical mindset with strong logical thinking abilities, ideal for research and data analysis...</p>
+                            </div>
+                            <div class="pm-card pm-teal">
+                                <div class="pm-card-title"><i data-lucide="leaf" size="16"></i> Element Analysis</div>
+                                <p>Wood element. Decisive, honest character with strong principles. Goal-oriented with leadership and creative abilities...</p>
+                            </div>
+                        </div>
+                        <!-- Summary -->
+                        <div class="pm-summary">
+                            <div class="pm-card-title"><i data-lucide="sparkles" size="16"></i> AI Summary — Bang Nguyen</div>
+                            <p>A successful entrepreneur with deep knowledge in Big Data & Social Data Platform. Analytical, decisive, emotional — ideal for long-term partnership development and strategic consulting.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ========== HOW IT WORKS ========== -->
+    <section class="how-it-works" id="how-it-works">
+        <div class="container">
+            <div class="section-header">
+                <h2>From Zero to Campaign-Ready Audience in 3 Steps</h2>
+                <p>No technical skills required. Set up in under 5 minutes.</p>
+            </div>
+            <div class="steps-grid">
+                <div class="step-card reveal">
+                    <div class="step-number">01</div>
+                    <h3>Input Any Social URL</h3>
+                    <p>Paste the URL of a Facebook Group, Fanpage, or any social profile. The system instantly begins collecting behavioral data.</p>
+                </div>
+                <div class="step-card reveal">
+                    <div class="step-number">02</div>
+                    <h3>AI Builds Your Segment</h3>
+                    <p>Alita's AI processes thousands of behavioral signals — engagement frequency, content preferences, community patterns, and interest clusters.</p>
+                </div>
+                <div class="step-card reveal">
+                    <div class="step-number">03</div>
+                    <h3>Export and Launch Everywhere</h3>
+                    <p>Export your segment directly to Facebook Custom Audiences, Zalo OA, Google Customer Match, SMS lists, or WhatsApp Business.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ========== VIDEO DEMO ========== -->
+    <section class="video-demo">
+        <div class="container">
+            <div class="section-header">
+                <div class="badge badge-light"><i data-lucide="play-circle" size="14"></i> PLATFORM DEMO</div>
+                <h2>See Alita in Action — 90 Seconds</h2>
+                <p>Over 12,000 marketers use Alita to find the right audience.<br>Here’s exactly how they do it.</p>
+            </div>
+            <div class="video-wrapper reveal">
+                <div class="video-glow"></div>
+                <div class="video-container">
+                    <iframe src="https://www.youtube.com/embed/ftKo0I_28TU?rel=0&modestbranding=1" title="Alita Platform Demo" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ========== INTEGRATIONS ========== -->
+    <section class="integrations" id="integrations">
+        <div class="container">
+            <div class="section-header section-header-wide">
+                <h2>One Data Source.<br>Every Advertising Platform.</h2>
+                <p>Build your audience once — reach them across every channel your customers use.</p>
+            </div>
+            <div class="integration-grid">
+                <div class="integration-card reveal">
+                    <div class="int-icon"><i data-lucide="megaphone" size="22"></i></div>
+                    <h4>Facebook Ads</h4>
+                    <p>Direct Custom Audience upload</p>
+                </div>
+                <div class="integration-card reveal">
+                    <div class="int-icon"><i data-lucide="message-circle" size="22"></i></div>
+                    <h4>Zalo OA</h4>
+                    <p>Native Zalo marketing integration</p>
+                </div>
+                <div class="integration-card reveal">
+                    <div class="int-icon"><i data-lucide="search" size="22"></i></div>
+                    <h4>Google Ads</h4>
+                    <p>Customer Match list sync</p>
+                </div>
+                <div class="integration-card reveal">
+                    <div class="int-icon"><i data-lucide="smartphone" size="22"></i></div>
+                    <h4>SMS</h4>
+                    <p>Verified phone number export</p>
+                </div>
+                <div class="integration-card reveal">
+                    <div class="int-icon"><i data-lucide="message-square" size="22"></i></div>
+                    <h4>WhatsApp Business</h4>
+                    <p>Business contact list</p>
+                </div>
+                <div class="integration-card reveal">
+                    <div class="int-icon"><i data-lucide="mail" size="22"></i></div>
+                    <h4>Email Platforms</h4>
+                    <p>Mailchimp, Klaviyo, Sendinblue & 30+ more</p>
+                </div>
+                <div class="integration-card reveal">
+                    <div class="int-icon"><i data-lucide="users" size="22"></i></div>
+                    <h4>HubSpot / Salesforce</h4>
+                    <p>Bidirectional contact sync</p>
+                </div>
+                <div class="integration-card reveal">
+                    <div class="int-icon"><i data-lucide="file-code" size="22"></i></div>
+                    <h4>CSV / API</h4>
+                    <p>Compatible with any platform</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ========== SOLUTIONS BY ROLE ========== -->
+    <section class="solutions" id="solutions">
+        <div class="container">
+            <div class="section-header">
+                <h2>Alita Solves Your Problem — Whoever You Are</h2>
+            </div>
+            <div class="tabs-nav">
+                <button class="tab-btn active" data-tab="tab-marketing">Marketing Leaders</button>
+                <button class="tab-btn" data-tab="tab-performance">Performance Marketers</button>
+                <button class="tab-btn" data-tab="tab-business">Business Owners</button>
+                <button class="tab-btn" data-tab="tab-sales">Sales Teams</button>
+            </div>
+
+            <div class="tab-content active" id="tab-marketing">
+                <div class="tab-panel">
+                    <div>
+                        <h3>For Marketing Leaders</h3>
+                        <p>CPA rising, can't prove ROI to leadership, over-reliant on Facebook and Google. Alita reduces targeting waste by 40%, provides clear attribution data, and opens new channels.</p>
+                        <a href="https://app.thealita.com/signup" class="btn btn-primary">Book a Team Demo</a>
+                    </div>
+                    <div class="outcomes">
+                        <div class="outcome-item"><i data-lucide="check-circle-2" size="18"></i><span>CPA reduced by 35% on average</span></div>
+                        <div class="outcome-item"><i data-lucide="check-circle-2" size="18"></i><span>Clear data trail from audience to conversion to revenue</span></div>
+                        <div class="outcome-item"><i data-lucide="check-circle-2" size="18"></i><span>Multi-channel reach without extra budget</span></div>
+                    </div>
+                </div>
+            </div>
+            <div class="tab-content" id="tab-performance">
+                <div class="tab-panel">
+                    <div>
+                        <h3>For Performance Marketers</h3>
+                        <p>Targeting too broad, audience research takes hours, no behavioral data for multi-channel. Alita automates audience discovery with AI and delivers behavioral precision.</p>
+                        <a href="https://app.thealita.com/signup" class="btn btn-primary">Start Free Trial</a>
+                    </div>
+                    <div class="outcomes">
+                        <div class="outcome-item"><i data-lucide="check-circle-2" size="18"></i><span>Audience built in 30 seconds instead of 2 hours</span></div>
+                        <div class="outcome-item"><i data-lucide="check-circle-2" size="18"></i><span>98% targeting accuracy vs. demographic guesswork</span></div>
+                        <div class="outcome-item"><i data-lucide="check-circle-2" size="18"></i><span>1-click export to Facebook, Zalo, Google, SMS simultaneously</span></div>
+                    </div>
+                </div>
+            </div>
+            <div class="tab-content" id="tab-business">
+                <div class="tab-panel">
+                    <div>
+                        <h3>For Business Owners</h3>
+                        <p>Limited budget, no marketing team, need results fast. Alita is simple enough to use without a marketing team — setup in 5 minutes, AI does the targeting work.</p>
+                        <a href="https://app.thealita.com/signup" class="btn btn-primary">Start for $19/month</a>
+                    </div>
+                    <div class="outcomes">
+                        <div class="outcome-item"><i data-lucide="check-circle-2" size="18"></i><span>Enterprise-level targeting at $19/month</span></div>
+                        <div class="outcome-item"><i data-lucide="check-circle-2" size="18"></i><span>No technical skills or team required</span></div>
+                        <div class="outcome-item"><i data-lucide="check-circle-2" size="18"></i><span>Measurable results within 30 days</span></div>
+                    </div>
+                </div>
+            </div>
+            <div class="tab-content" id="tab-sales">
+                <div class="tab-panel">
+                    <div>
+                        <h3>For Sales Teams</h3>
+                        <p>Outdated lead data, cold outreach fails, response rates below 5%. Alita combines 180M+ verified B2B contacts with social behavioral context.</p>
+                        <a href="/build-b2b-lead" class="btn btn-primary">Find B2B Leads</a>
+                    </div>
+                    <div class="outcomes">
+                        <div class="outcome-item"><i data-lucide="check-circle-2" size="18"></i><span>Cold outreach response rates up 3–5x</span></div>
+                        <div class="outcome-item"><i data-lucide="check-circle-2" size="18"></i><span>Every contact enriched with social context</span></div>
+                        <div class="outcome-item"><i data-lucide="check-circle-2" size="18"></i><span>Leads pre-qualified by behavioral signals</span></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ========== CASE STUDIES ========== -->
+    <section class="case-studies">
+        <div class="container">
+            <div class="section-header">
+                <h2>Real Results. Real Companies.<br>Real Numbers.</h2>
+                <p>See how businesses like yours are winning with Alita.</p>
+            </div>
+            <div class="case-grid">
+                <div class="case-card reveal">
+                    <div class="case-card-top"></div>
+                    <div class="case-card-body">
+                        <span class="case-industry">D2C Fashion · E-Commerce</span>
+                        <div class="case-result">CPA reduced 42% in month</div>
+                        <p>A D2C fashion brand burning $15,000/month on Facebook Ads. After building behavioral audiences with Alita, CPA dropped from $12 to $7 in 30 days.</p>
+                        <a href="#" class="case-link">Read the full story <i data-lucide="arrow-right" size="14"></i></a>
+                    </div>
+                </div>
+                <div class="case-card reveal">
+                    <div class="case-card-top" style="background: var(--grad-ai);"></div>
+                    <div class="case-card-body">
+                        <span class="case-industry">B2B Software · SaaS</span>
+                        <div class="case-result">Response rate: 3% → 11%</div>
+                        <p>An SDR team with poor reply rates. Alita's social context enrichment let them personalize every opening line. Replies quadrupled in 60 days.</p>
+                        <a href="#" class="case-link">Read the full story <i data-lucide="arrow-right" size="14"></i></a>
+                    </div>
+                </div>
+                <div class="case-card reveal">
+                    <div class="case-card-top" style="background: var(--grad-data);"></div>
+                    <div class="case-card-body">
+                        <span class="case-industry">F&B · Local Business</span>
+                        <div class="case-result">2,400% ROI on $19/month</div>
+                        <p>A restaurant owner with no marketing team. Alita built targeted audiences from local food groups in 30 minutes. Ad spend down 35%, bookings up 28%.</p>
+                        <a href="#" class="case-link">Read the full story <i data-lucide="arrow-right" size="14"></i></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ========== TESTIMONIALS ========== -->
+    <section class="testimonials" id="reviews">
+        <div class="container">
+            <div class="section-header">
+                <h2>What Our Clients Say</h2>
+            </div>
+            <div class="testimonial-grid">
+                <div class="testimonial-card reveal">
+                    <div class="stars">★★★★★</div>
+                    <blockquote>"Alita fundamentally changed how we approach audience targeting. Our CPA dropped 38% in the first quarter. Data quality is genuinely reliable — and the support team is outstanding."</blockquote>
+                    <div class="testimonial-author">
+                        <div class="author-avatar">R</div>
+                        <div class="author-info">
+                            <strong>Rodney H.</strong>
+                            <span>Head of Digital Marketing · Technology Company</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="testimonial-card reveal">
+                    <div class="stars">★★★★★</div>
+                    <blockquote>"The only tool that combines real social behavioral data with B2B contacts. For $19/month, nothing comes close to this value."</blockquote>
+                    <div class="testimonial-author">
+                        <div class="author-avatar" style="background: var(--grad-data);">C</div>
+                        <div class="author-info">
+                            <strong>Cameron W.</strong>
+                            <span>Performance Marketing Lead · E-Commerce</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="testimonial-card reveal">
+                    <div class="stars">★★★★★</div>
+                    <blockquote>"I have no marketing background but Alita is simple enough to run on my own. Clear ROI from month one. I recommend it to every small business owner."</blockquote>
+                    <div class="testimonial-author">
+                        <div class="author-avatar" style="background: var(--grad-ai);">M</div>
+                        <div class="author-info">
+                            <strong>Minh T.</strong>
+                            <span>Founder · Retail, Ho Chi Minh City</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="testimonial-card reveal">
+                    <div class="stars">★★★★★</div>
+                    <blockquote>"We use Alita across all 15 of our agency clients now. Audience research dropped from 2 hours to 20 minutes. It's a permanent part of our workflow."</blockquote>
+                    <div class="testimonial-author">
+                        <div class="author-avatar" style="background: linear-gradient(135deg, #10B981, #34D399);">M</div>
+                        <div class="author-info">
+                            <strong>Michael L.</strong>
+                            <span>Agency Director · Digital Marketing Agency</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+
+    <!-- ========== SECURITY ========== -->
+    <section class="security">
+        <div class="container">
+            <div class="section-header">
+                <h2>Enterprise-Grade Security.<br>Global Compliance.</h2>
+                <p>12,000+ businesses trust Alita with their marketing data. Here's why.</p>
+            </div>
+            <div class="security-badges">
+                <div class="sec-badge reveal"><div class="sec-icon">🛡️</div><strong>GDPR</strong><p>EU Data Protection</p></div>
+                <div class="sec-badge reveal"><div class="sec-icon">🔐</div><strong>SSL 256-bit</strong><p>Encrypted Transit</p></div>
+                <div class="sec-badge reveal"><div class="sec-icon">📋</div><strong>CCPA</strong><p>California Privacy</p></div>
+                <div class="sec-badge reveal"><div class="sec-icon">🌏</div><strong>PDPA</strong><p>SEA Data Protection</p></div>
+                <div class="sec-badge reveal"><div class="sec-icon">💳</div><strong>PCI DSS</strong><p>Payment Security</p></div>
+                <div class="sec-badge reveal"><div class="sec-icon">✅</div><strong>SOC 2</strong><p>Enterprise Infra</p></div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ========== COMPARISON TABLE ========== -->
+    <section class="comparison" id="comparison">
+        <div class="container">
+            <div class="section-header">
+                <div class="badge"><i data-lucide="git-compare" size="14"></i> HONEST COMPARISON</div>
+                <h2>Why Alita? See the Difference.</h2>
+                <p>The only platform with real-time social behavioral data — and that changes everything.</p>
+            </div>
+            <div class="compare-grid">
+                <!-- Alita (highlighted) -->
+                <div class="compare-col compare-alita reveal">
+                    <div class="compare-header">
+                        <img src="assets/logo.png" alt="Alita" class="compare-logo">
+                        <span class="compare-price">$19<small>/mo</small></span>
+                    </div>
+                    <div class="compare-features">
+                        <div class="cf-row cf-yes"><i data-lucide="check-circle-2" size="16"></i> Social Behavioral Data <strong>450M</strong></div>
+                        <div class="cf-row cf-yes"><i data-lucide="check-circle-2" size="16"></i> B2B Contacts <strong>180M</strong></div>
+                        <div class="cf-row cf-yes"><i data-lucide="check-circle-2" size="16"></i> AI Persona Analysis <strong>Advanced</strong></div>
+                        <div class="cf-row cf-yes"><i data-lucide="check-circle-2" size="16"></i> Real-Time Data</div>
+                        <div class="cf-row cf-yes"><i data-lucide="check-circle-2" size="16"></i> Vietnam / Zalo Support</div>
+                        <div class="cf-row cf-yes"><i data-lucide="check-circle-2" size="16"></i> Multi-Channel Export</div>
+                        <div class="cf-row cf-yes"><i data-lucide="check-circle-2" size="16"></i> Free 7-Day Trial (No CC)</div>
+                    </div>
+                    <a href="https://app.thealita.com/signup" class="btn btn-primary" style="width:100%; justify-content:center; margin-top:1rem;">Start Free Trial</a>
+                </div>
+                <!-- Apollo -->
+                <div class="compare-col reveal">
+                    <div class="compare-header"><h4>Apollo.io</h4><span class="compare-price-other">$49+/mo</span></div>
+                    <div class="compare-features">
+                        <div class="cf-row cf-no"><i data-lucide="x" size="16"></i> Social Behavioral Data</div>
+                        <div class="cf-row cf-yes-dim"><i data-lucide="check" size="16"></i> B2B Contacts 210M</div>
+                        <div class="cf-row cf-no"><i data-lucide="minus" size="16"></i> Basic Persona</div>
+                        <div class="cf-row cf-no"><i data-lucide="minus" size="16"></i> Partial Real-Time</div>
+                        <div class="cf-row cf-no"><i data-lucide="x" size="16"></i> No Vietnam/Zalo</div>
+                        <div class="cf-row cf-no"><i data-lucide="minus" size="16"></i> Partial Export</div>
+                        <div class="cf-row cf-no"><i data-lucide="x" size="16"></i> No Free Trial</div>
+                    </div>
+                </div>
+                <!-- ZoomInfo -->
+                <div class="compare-col reveal">
+                    <div class="compare-header"><h4>ZoomInfo</h4><span class="compare-price-other">$500+/mo</span></div>
+                    <div class="compare-features">
+                        <div class="cf-row cf-no"><i data-lucide="x" size="16"></i> Social Behavioral Data</div>
+                        <div class="cf-row cf-yes-dim"><i data-lucide="check" size="16"></i> B2B Contacts 265M</div>
+                        <div class="cf-row cf-no"><i data-lucide="x" size="16"></i> No AI Persona</div>
+                        <div class="cf-row cf-no"><i data-lucide="x" size="16"></i> No Real-Time</div>
+                        <div class="cf-row cf-no"><i data-lucide="x" size="16"></i> No Vietnam/Zalo</div>
+                        <div class="cf-row cf-no"><i data-lucide="minus" size="16"></i> Partial Export</div>
+                        <div class="cf-row cf-no"><i data-lucide="x" size="16"></i> No Free Trial</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ========== FOOTER ========== -->
+    <footer>
+        <div class="container">
+            <div class="footer-grid">
+                <div class="footer-brand">
+                    <a href="#" class="logo">
+                        <img src="assets/logo.png" alt="Alita" class="logo-img logo-img-footer">
+                    </a>
+                    <p>Next-Gen AI Marketing & Lead Platform</p>
+                    <div class="contact-info">
+                        <p>Anaheim, California 92807, USA</p>
+                        <p><a href="mailto:info@theAlita.com">info@theAlita.com</a></p>
+                        <p>+1 949-549-1953</p>
+                    </div>
+                </div>
+                <div class="footer-col">
+                    <h5>Product</h5>
+                    <a href="https://app.thealita.com">Platform</a>
+                    <a href="/cloud-social-segmentation">Cloud Social Segmentation</a>
+                    <a href="/build-b2b-lead">Build B2B Lead</a>
+                    <a href="/ai-persona-insight">AI Persona Insight</a>
+                    <a href="/data-enrichment">Data Enrichment</a>
+                    <a href="/ads-library">Ads Library</a>
+                    <a href="/pricing">Pricing</a>
+                </div>
+                <div class="footer-col">
+                    <h5>Resources</h5>
+                    <a href="/case-studies">Case Studies</a>
+                    <a href="/blog">Blog & Insights</a>
+                    <a href="/reviews">Reviews</a>
+                    <a href="/comparison">Comparison</a>
+                    <a href="https://docs.thealita.com">Documentation</a>
+                    <a href="https://thealita.com/insight">Data Library</a>
+                </div>
+                <div class="footer-col">
+                    <h5>Company</h5>
+                    <a href="/about-us">About Us</a>
+                    <a href="/newsroom">Newsroom</a>
+                    <a href="/integrations">Partners & Integrations</a>
+                    <a href="/security">Security</a>
+                    <a href="/privacy-center">Data Privacy Center</a>
+                    <a href="/ai-policy">AI Policy</a>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>© 2026 theAlita. All Rights Reserved.</p>
+                <div class="footer-bottom-links">
+                    <a href="/terms">Terms</a>
+                    <a href="/privacy">Privacy Policy</a>
+                    <a href="/cookies">Cookie Policy</a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
